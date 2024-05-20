@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-  margin-top: 11rem;
+  margin-top: 10rem;
   display: grid;
   place-items: center;
   h2{
@@ -49,6 +49,10 @@ export const Container = styled.div`
       width: 100%;
       
       input,textarea{
+        width: 100%;
+      }
+
+      button{
         width: 100%;
       }
     }

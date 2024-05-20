@@ -5,6 +5,7 @@ export const Container = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   height: 100vh;
+  padding-top: 15rem;
 
   .hard-skills{
     margin-top: 1.6rem;
@@ -68,20 +69,35 @@ export const Container = styled.section`
   
 
   @media only screen and (max-width: 480px) {
-    .about-image img{
-      display: none;
-      max-width: 100%;
-      margin-top: 4rem;
+    .about-image {
+      width: 100%;
+      height: 100%;
       
+    }
+    .about-image img {
+      margin-top: 4rem;
+      width: 90%;
+      height: 90%;
     }
   }
 
   @media (max-width: 960px){
-    display: block;
+    display: flex;
+    height: auto;
+    padding-top: 0;
+    flex-direction: column;
     text-align: center;
-
-    .about-image{
-      display: flex;
+    margin-bottom: 10rem;
+    h2{
+      font-size: 4rem;
+      margin-bottom: 4rem;
+    }
+    .about-image {
+      width: 100%;
+      height: 100%;
+    }
+    .about-image img {
+      margin-top: 4rem;
     }
     .hard-skills{
       justify-content: center;

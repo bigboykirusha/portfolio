@@ -43,14 +43,14 @@ export function Footer() {
         </a>
 
         <a
-          href="https://discord.com/users/426120432991862784"
+          href="https://discord.com/bigboykirusha"
           target="_blank"
           rel="noreferrer"
         >
           <img src={discordIcon} alt="Discord" />
         </a>
         <a
-          href="https://discord.com/users/426120432991862784"
+          href="https://t.me/freebigboykirusha"
           target="_blank"
           rel="noreferrer"
         >
