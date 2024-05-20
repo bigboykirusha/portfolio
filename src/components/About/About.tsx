@@ -74,7 +74,7 @@ export function About(){
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
           <img src={profileImage} alt="Photo not loaded" />
-        </ScrollAnimation>
+        </ScrollAnimation>н
       </div>
     </Container>
   )
