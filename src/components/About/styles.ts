@@ -81,6 +81,11 @@ export const Container = styled.section`
     }
   }
 
+  @media (max-width: 1500px){
+    padding-top: 10rem;
+  }
+
+
   @media (max-width: 960px){
     display: flex;
     height: auto;
@@ -97,7 +102,7 @@ export const Container = styled.section`
       height: 100%;
     }
     .about-image img {
-      margin-top: 4rem;
+      margin-top: 2rem;
     }
     .hard-skills{
       justify-content: center;

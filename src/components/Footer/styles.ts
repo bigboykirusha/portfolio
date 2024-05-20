@@ -48,6 +48,7 @@ export const Container = styled.footer`
     text-align: center;
   }
   @media(max-width: 600px){
+    margin-top: 5rem;
     padding: 4rem 1rem;
     p{
       font-size: 1.2rem;

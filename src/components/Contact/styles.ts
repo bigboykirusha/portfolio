@@ -55,10 +55,23 @@ export const Container = styled.section`
   @media(max-width: 960px){
     margin-top: 10rem;
     .contacts{
-      flex-direction: column;
       div{
         width: 100%;
         flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+  
+  @media(max-width: 680px){
+    margin-top: 10rem;
+    .contacts{
+      flex-direction: column;
+      margin-top: 4rem;
+      div{
+        width: 100%;
+        gap: 2rem;
+        flex-direction: row;
       }
     }
   }
