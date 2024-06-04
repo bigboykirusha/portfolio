@@ -20,7 +20,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-            <img className='logo' src="https://preview.redd.it/ar4z4b1670q81.jpg?width=640&crop=smart&auto=webp&s=325f7a9156eb6e6faf61edaa7e7667ce2d5b72d8" alt=""/>
+            <img className='logo' src="https://avatars.githubusercontent.com/u/105214100?v=4" alt=""/>
         </HashLink>
 
         <input
